@@ -3,72 +3,63 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 429px;
+  min-height: 356px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 410px;
+  min-height: 355px;
 }
 
 .u-section-1 .u-container-layout-1 {
-  padding: 0 16px;
-}
-
-.u-section-1 .u-image-1 {
-  min-height: 323px;
-  height: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  --radius: 50px;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
-  background-image: url("images/default-image.jpg");
-}
-
-.u-section-1 .u-container-layout-2 {
   padding: 0;
 }
 
+.u-section-1 .u-group-1 {
+  width: 531px;
+  min-height: 273px;
+  height: auto;
+  --radius: 50px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  background-image: linear-gradient(to right, #ffde95, #ffcc5b);
+  margin: 0 auto;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 0 0 14px;
+}
+
 .u-section-1 .u-text-1 {
-  font-family: "Finger Paint";
-  margin: 20px 0 0 9px;
+  font-size: 6rem;
+  font-family: Agbalumo;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: 37px 238px 0 41px;
 }
 
 .u-section-1 .u-text-2 {
-  font-family: "Finger Paint";
-  font-size: 1.875rem;
-  margin: 13px 9px 0;
-}
-
-.u-section-1 .u-text-3 {
-  font-family: "IBM Plex Sans Thai";
-  font-size: 1.875rem;
   line-height: 1.2;
-  margin: 38px 9px 0;
-}
-
-.u-section-1 .u-text-4 {
-  font-family: "IBM Plex Sans Thai";
-  margin: 21px 9px 0;
+  font-family: Agbalumo;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  margin: 10px 76px 0 -12px;
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 410px;
+  min-height: 355px;
 }
 
 .u-section-1 .u-container-layout-3 {
-  padding: 30px 0;
+  padding: 0;
 }
 
 .u-section-1 .u-form-1 {
-  height: 273px;
+  height: 277px;
   background-image: none;
   width: 533px;
-  margin: 0 auto;
+  margin: 5px auto 0;
 }
 
 .u-section-1 .u-form-group-1 {
@@ -77,11 +68,11 @@
 }
 
 .u-section-1 .u-input-1 {
-  font-family: "Maven Pro";
   --radius: 10px;
   letter-spacing: 1px;
   font-size: 1.125rem;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  font-family: Ubuntu, sans-serif;
 }
 
 .u-section-1 .u-form-group-2 {
@@ -89,21 +80,22 @@
 }
 
 .u-section-1 .u-input-2 {
-  font-family: "Maven Pro";
   --radius: 10px;
   letter-spacing: 1px;
   font-size: 1.125rem;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  font-family: Ubuntu, sans-serif;
 }
 
 .u-section-1 .u-btn-1 {
   background-image: linear-gradient(to right, #ffde95, #e13690);
   --radius: 50px;
-  font-family: "Maven Pro";
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 1.125rem;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  border-style: solid;
+  font-family: Ubuntu, sans-serif;
 }
 
 @media (max-width: 1199px) {
@@ -116,34 +108,29 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 338px;
+    min-height: 293px;
   }
 
-  .u-section-1 .u-image-1 {
+  .u-section-1 .u-group-1 {
+    width: 470px;
+    background-position: 50% 50%;
     height: auto;
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: 0;
+    font-size: 3.75rem;
+    margin-right: 208px;
+    margin-left: 11px;
+    width: 244px;
   }
 
   .u-section-1 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-right: 0;
-    margin-left: 18px;
-  }
-
-  .u-section-1 .u-text-4 {
-    margin-left: 0;
-    margin-right: 0;
+    font-size: 3rem;
+    margin-right: 46px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 338px;
+    min-height: 293px;
   }
 
   .u-section-1 .u-form-1 {
@@ -157,7 +144,21 @@
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 259px;
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 360px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 109px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -174,13 +175,12 @@
     min-height: 600px;
   }
 
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 389px;
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
   }
 
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
+  .u-section-1 .u-text-2 {
+    font-size: 2.25rem;
   }
 }
 
@@ -189,8 +189,17 @@
     min-height: 459px;
   }
 
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 245px;
+  .u-section-1 .u-group-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+    margin-right: 89px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1.875rem;
   }
 
   .u-section-1 .u-form-1 {
@@ -221,8 +230,8 @@
 
 .u-section-2 .u-input-1 {
   --radius: 10px;
-  font-family: "Maven Pro";
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  background-image: none;
 }
 
 .u-section-2 .u-label-2 {
@@ -237,6 +246,13 @@
   padding-top: 10px;
   padding-bottom: 10px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  border-style: solid;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-input-1 {
+    font-family: Ubuntu, sans-serif;
+  }
 }
 
 @media (max-width: 991px) {
@@ -260,12 +276,12 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 419px;
+  min-height: 436px;
 }
 
 .u-section-3 .u-group-1 {
   width: 800px;
-  min-height: 152px;
+  min-height: 151px;
   --radius: 10px;
   height: auto;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
@@ -279,50 +295,49 @@
 }
 
 .u-section-3 .u-image-1 {
-  width: 47px;
-  height: 47px;
-  margin: 19px auto 0 18px;
+  width: 45px;
+  height: 45px;
+  margin: 20px auto 0 20px;
 }
 
 .u-section-3 .u-btn-1 {
   --radius: 50px;
   font-size: 0.875rem;
   letter-spacing: 0px;
-  background-image: none;
-  font-family: "Maven Pro";
-  font-weight: normal;
+  background-image: linear-gradient(to right, #ffde95, #ffcc5b);
   text-transform: none;
   line-height: 1;
-  margin: -44px auto 0 191px;
+  font-weight: 400;
+  font-family: Ubuntu, sans-serif;
+  margin: -43px auto 0 191px;
   padding: 12px 19px 14px 17px;
 }
 
 .u-section-3 .u-text-1 {
-  font-family: "IBM Plex Sans Thai";
+  font-family: Ubuntu, sans-serif;
   margin: -34px auto 0 79px;
 }
 
 .u-section-3 .u-text-2 {
-  font-family: "IBM Plex Sans Thai";
+  font-family: Ubuntu, sans-serif;
   margin: 39px auto 0 55px;
 }
 
-.u-section-3 .u-icon-1 {
-  width: 28px;
-  height: 28px;
-  margin: -28px 39px 0 auto;
-  padding: 0;
-}
-
 .u-section-3 .u-text-3 {
-  font-family: "IBM Plex Sans Thai";
+  font-family: Ubuntu, sans-serif;
   margin: -28px 22px 0 auto;
 }
 
 .u-section-3 .u-image-2 {
   width: 29px;
   height: 29px;
-  margin: -30px 81px 0 auto;
+  margin: -30px 71px 0 auto;
+}
+
+.u-section-3 .u-image-3 {
+  width: 22px;
+  height: 22px;
+  margin: -25px 39px 0 auto;
 }
 
 .u-section-3 .u-shape-1 {
@@ -330,7 +345,7 @@
   height: 114px;
   border-bottom-style: dashed;
   border-left-style: dashed;
-  margin: -1px auto 0 211px;
+  margin: 0 auto 0 211px;
 }
 
 .u-section-3 .u-group-2 {
@@ -340,7 +355,7 @@
   height: auto;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   background-image: none;
-  margin: -79px 182px 42px auto;
+  margin: -80px 182px 60px auto;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -348,7 +363,7 @@
   padding-left: 0;
 }
 
-.u-section-3 .u-image-3 {
+.u-section-3 .u-image-4 {
   width: 47px;
   height: 47px;
   margin: 22px auto 0 22px;
@@ -358,35 +373,34 @@
   --radius: 50px;
   font-size: 0.875rem;
   letter-spacing: 0px;
-  background-image: none;
-  font-family: "Maven Pro";
-  font-weight: normal;
+  background-image: linear-gradient(to right, #ffde95, #e13690);
   line-height: 1;
   text-transform: none;
+  font-weight: 400;
+  font-family: Ubuntu, sans-serif;
   margin: -43px auto 0 149px;
   padding: 12px 15px 13px 13px;
 }
 
 .u-section-3 .u-text-4 {
-  font-family: "IBM Plex Sans Thai";
+  font-family: Ubuntu, sans-serif;
   margin: -34px auto 0 83px;
 }
 
-.u-section-3 .u-icon-2 {
-  width: 28px;
-  height: 28px;
-  margin: 41px 38px 0 auto;
-  padding: 0;
-}
-
 .u-section-3 .u-text-5 {
-  font-family: "IBM Plex Sans Thai";
-  margin: -28px auto 0 53px;
+  font-family: Ubuntu, sans-serif;
+  margin: 41px auto 0 53px;
 }
 
 .u-section-3 .u-text-6 {
-  font-family: "IBM Plex Sans Thai";
+  font-family: Ubuntu, sans-serif;
   margin: -29px -18px 0 691px;
+}
+
+.u-section-3 .u-image-5 {
+  width: 22px;
+  height: 22px;
+  margin: -25px 41px 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -410,16 +424,7 @@
   }
 
   .u-section-3 .u-btn-1 {
-    margin-top: 30px;
     margin-left: 111px;
-  }
-
-  .u-section-3 .u-text-1 {
-    margin-top: -108px;
-  }
-
-  .u-section-3 .u-text-2 {
-    margin-top: 115px;
   }
 
   .u-section-3 .u-shape-1 {
@@ -447,24 +452,7 @@
   }
 
   .u-section-3 .u-btn-1 {
-    margin-top: 27px;
     margin-left: 0;
-  }
-
-  .u-section-3 .u-text-1 {
-    margin-top: -105px;
-  }
-
-  .u-section-3 .u-icon-1 {
-    margin-top: 19px;
-  }
-
-  .u-section-3 .u-text-3 {
-    margin-top: 20px;
-  }
-
-  .u-section-3 .u-image-2 {
-    margin-top: -45px;
   }
 
   .u-section-3 .u-group-2 {
